@@ -1,0 +1,25 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# Type definitions
+flow-typed/npm
+
+# dependencies
+node_modules
+.yarn-cache
+
+# testing
+docs
+reports/**/*
+!reports/simple.xsl
+
+# production
+temp
+dist
+
+# misc
+.DS_Store
+.env*
+!.env.changeme
+
+*-debug.log*
+*-error.log*

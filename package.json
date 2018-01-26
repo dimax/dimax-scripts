@@ -1,0 +1,22 @@
+{
+  "name": "@dimax-ar/dimax-scripts",
+  "version": "1.0.0-alpha.0",
+  "description": "Scripts for dimax projects",
+  "main": "dist/index.js",
+  "repository": "https://github.com/dimax/dimax-scripts.git",
+  "author": "Luciano Graziani <lgraziani2712@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">= 8",
+    "npm": ">= 5"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "4.16.0",
+    "lerna": "2.8.0"
+  }
+}
