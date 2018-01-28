@@ -1,3 +1,6 @@
 # Dimax Scripts
 
-Las librerías utilizadas para el entorno de desarrollo de Dimax.
+[![version][version-badge]][package]
+[![MIT License][license-badge]][license]
+
+Configures the development environment used by Dimax.

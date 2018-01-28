@@ -20,7 +20,7 @@ For contribuitors with publish permissions, follow this steps:
 1. `[One time only]` Login permanently into NPM with this command: `npm adduser`. It creates an NPM user if not exists.
 2. `yarn lerna publish [--npm-tag=next]`.
 
-**NOTE**: Use `--npm-tag=next` only for alpha/beta releases.
+**NOTE**: Use `--npm-tag=next` only for alpha/beta releases. Without the tag uses latest.
 
 If, for some reason, lerna fails, but the commit was made, do the following:
 
