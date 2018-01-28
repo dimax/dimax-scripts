@@ -29,6 +29,16 @@ If, for some reason, lerna fails, but the commit was made, do the following:
   1. Add the console log to the issue.
   2. Revert the commits made by lerna.
 
+### How to generate changelog
+
+To be able to use the `yarn run changelog` command, you'll need to set `GITHUB_AUTH` env variable with a GitHub API personal access token configured with the `repo` scope for _private repositories_ or just `public_repo` scope for _public repositories_. Follow this steps:
+
+1. Access to https://github.com/settings/tokens.
+2. Generate a new token with the `repo` scope for _private repositories_ or just `public_repo` scope for _public repositories_.
+3. Copy the new token.
+4. Create an .env file in the root folder of this project.
+5. Add the `GITHUB_AUTH` variable with the value of the token.
+
 ## Common lerna commands
 
 ### Add, update or remove a dependency from a package

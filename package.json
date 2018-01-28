@@ -8,8 +8,10 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "changelog": "env-cmd .env lerna-changelog",
     "lerna": "lerna",
-    "lint:eslint": "eslint packages *.js --fix"
+    "lint:eslint": "eslint packages *.js --fix",
+    "test": "jest"
   },
   "workspaces": [
     "packages/*"
@@ -21,8 +23,12 @@
   "dependencies": {},
   "devDependencies": {
     "@dimax-ar/eslint-config-dimax": "1.0.0-alpha.1",
+    "dotenv": "4.0.0",
+    "env-cmd": "7.0.0",
     "eslint": "4.16.0",
+    "jest": "22.1.4",
     "lerna": "2.8.0",
+    "lerna-changelog": "0.7.0",
     "prettier": "1.10.2"
   }
 }
