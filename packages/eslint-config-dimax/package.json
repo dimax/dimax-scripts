@@ -16,6 +16,9 @@
   "bugs": {
     "url": "https://github.com/dimax/dimax-scripts/issues"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "babel-eslint": "^8.0.2",
     "eslint-plugin-filenames": "^1.2.0",
@@ -25,13 +28,12 @@
     "eslint-plugin-prettier": "^2.5.0"
   },
   "peerDependencies": {
-    "eslint": ">=4"
+    "eslint": ">=4",
+    "prettier": ">=1"
   },
   "devDependencies": {
     "eslint": "^4.16.0",
-    "eslint-config-prettier": "^2.9.0"
-  },
-  "publishConfig": {
-    "access": "public"
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-find-rules": "^3.1.1"
   }
 }
