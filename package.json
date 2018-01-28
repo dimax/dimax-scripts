@@ -7,6 +7,10 @@
   "author": "Luciano Graziani <lgraziani2712@gmail.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "lerna": "lerna",
+    "lint:eslint": "eslint packages *.js --fix"
+  },
   "workspaces": [
     "packages/*"
   ],
@@ -16,7 +20,9 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "@dimax-ar/eslint-config-dimax": "1.0.0-alpha.1",
     "eslint": "4.16.0",
-    "lerna": "2.8.0"
+    "lerna": "2.8.0",
+    "prettier": "1.10.2"
   }
 }
