@@ -13,6 +13,22 @@ This project uses [Yarn](https://yarnpkg.com/en/) and [lerna](https://github.com
 - NodeJS 8 or superior.
 - Yarn latest stable.
 
+### How to publish
+
+For contribuitors with publish permissions, follow this steps:
+
+1. `[One time only]` Login permanently into NPM with this command: `npm adduser`. It creates an NPM user if not exists.
+2. `yarn lerna publish [--npm-tag=next]`.
+
+**NOTE**: Use `--npm-tag=next` only for alpha/beta releases.
+
+If, for some reason, lerna fails, but the commit was made, do the following:
+
+1. Report the bug and copy the `lerna-debug.log` file.
+2. Try to publish with the command that lerna tried to do (it will be written in the `lerna-debug.log` file). If for some reason that fails too:
+  1. Add the console log to the issue.
+  2. Revert the commits made by lerna.
+
 ## Common lerna commands
 
 ### Add, update or remove a dependency from a package
