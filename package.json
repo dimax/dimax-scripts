@@ -11,7 +11,7 @@
     "changelog": "env-cmd .env lerna-changelog",
     "lerna": "lerna",
     "lint:eslint": "eslint packages *.js --fix",
-    "test": "jest"
+    "test": "jest --watch"
   },
   "workspaces": [
     "packages/*"
