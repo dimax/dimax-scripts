@@ -9,8 +9,7 @@ node_modules
 
 # testing
 docs
-reports/**/*
-!reports/simple.xsl
+reports
 
 # production
 temp
