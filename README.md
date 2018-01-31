@@ -8,6 +8,13 @@
 
 Configures the development environment used by Dimax.
 
+## Inspiration
+
+- [kdc-scripts](https://github.com/kentcdodds/kcd-scripts).
+- [react-scripts](https://github.com/facebook/create-react-app).
+
+Thank you for your work 💪!
+
 [license-badge]: https://img.shields.io/npm/l/@dimax-ar/dimax-scripts.svg?style=flat-square
 [license]: https://github.com/dimax/dimax-scripts/blob/master/LICENSE
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
