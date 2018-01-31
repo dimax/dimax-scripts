@@ -10,7 +10,7 @@
   "scripts": {
     "changelog": "env-cmd .env lerna-changelog",
     "lerna": "lerna",
-    "lint:eslint": "eslint packages *.js --fix",
+    "lint:eslint": "eslint packages --ext *.{js,jsx,vue} --fix",
     "test": "jest --watch"
   },
   "workspaces": [
