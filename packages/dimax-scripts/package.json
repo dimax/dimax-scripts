@@ -1,6 +1,6 @@
 {
   "name": "@dimax-ar/dimax-scripts",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "description": "Development environment used by Dimax",
   "main": "index.js",
   "repository": "dimax/dimax-scripts",
