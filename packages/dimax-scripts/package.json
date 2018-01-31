@@ -9,6 +9,9 @@
   "bugs": {
     "url": "https://github.com/dimax/dimax-scripts/issues"
   },
+  "bin": {
+    "dimax-scripts": "bin/dimax-scripts.js"
+  },
   "publishConfig": {
     "access": "public"
   },
