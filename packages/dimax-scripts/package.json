@@ -1,0 +1,26 @@
+{
+  "name": "@dimax-ar/dimax-scripts",
+  "version": "1.0.0-alpha.0",
+  "description": "Development environment used by Dimax",
+  "main": "index.js",
+  "repository": "dimax/dimax-scripts",
+  "license": "MIT",
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/dimax/dimax-scripts/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "report:duplication": "node ./bin/dimax-scripts jscpd"
+  },
+  "dependencies": {
+    "jscpd": "^0.6.17",
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "cross-spawn": "^6.0.4",
+    "glob": "^7.1.2"
+  }
+}
