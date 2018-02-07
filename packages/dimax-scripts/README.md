@@ -2,6 +2,10 @@
 
 CLI toolbox for common scripts for my projects.
 
+## Known issues
+
+- https://github.com/eslint/eslint/issues/9227. It is necessary to add an `.eslintignore` to the repo because doesn't use the default from the package.
+
 ## Displaying Lint Output in the Editor
 
 Some editors, including Sublime Text, Atom, and Visual Studio Code, provide plugins for ESLint.
