@@ -15,6 +15,7 @@ const resolveApp = (relativePath /*: string*/) =>
   path.resolve(appDirectory, relativePath);
 
 module.exports = {
+  appDirectory,
   clientMainJs: resolveApp('client/index.js'),
   coverageDirectory: resolveApp('reports/coverage'),
   dotenv: resolveApp('.env'),
