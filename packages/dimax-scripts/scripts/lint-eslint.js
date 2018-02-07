@@ -55,6 +55,8 @@ const ignore = useBuiltinIgnore
 
 const cache = args.includes('--no-cache') ? [] : ['--cache'];
 
+const fix = ['--fix'];
+
 /////////////////////////////////////////
 // Files to apply eslint configuration
 /////////////////////////////////////////
@@ -74,7 +76,7 @@ if (filesGiven) {
 
 const result = spawn.sync(
   resolveBin('eslint'),
-  [...config, ...ignore, ...cache, ...args, ...filesToApply],
+  [...config, ...ignore, ...cache, ...fix, ...args, ...filesToApply],
   { stdio: 'inherit' },
 );
 
