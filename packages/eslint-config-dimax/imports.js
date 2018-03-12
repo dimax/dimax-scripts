@@ -48,6 +48,7 @@ module.exports = {
     'import/no-deprecated': 2,
     'import/no-duplicates': 2,
     'import/no-mutable-exports': 1,
+    'import/no-unresolved': [2, { commonjs: true }],
     'import/prefer-default-export': 2,
     'import/order': [
       2,
