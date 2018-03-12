@@ -1,6 +1,6 @@
 {
   "name": "@dimax-ar/eslint-config-dimax",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint configuration used by Dimax",
   "main": "index.js",
   "repository": "dimax/dimax-scripts",
