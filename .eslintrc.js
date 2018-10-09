@@ -1,11 +1,5 @@
-/**
- * @author @lgraziani2712
- *
- * @flow
- */
-
 'use strict';
 
 module.exports = {
-  extends: ['@dimax-ar/dimax'],
+  extends: ['./packages/eslint-config-dimax/index.js'],
 };

@@ -9,17 +9,6 @@
 module.exports = {
   extends: ['eslint:recommended'],
   plugins: ['filenames'],
-  env: {
-    es6: true,
-    node: true,
-  },
-  parserOptions: {
-    ecmaVersion: 8,
-    sourceType: 'script',
-    ecmaFeatures: {
-      experimentalObjectRestSpread: true,
-    },
-  },
   rules: {
     'array-callback-return': 1,
     'arrow-body-style': 1,

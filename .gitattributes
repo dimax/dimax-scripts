@@ -184,3 +184,6 @@ Procfile       text eol=lf
 ## EXECUTABLES
 *.exe binary
 *.pyc binary
+
+## LOCKS
+*.lock binary

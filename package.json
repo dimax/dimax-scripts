@@ -1,6 +1,5 @@
 {
   "name": "@dimax-ar/dimax-scripts",
-  "version": "1.0.0-alpha.0",
   "description": "Scripts for dimax projects",
   "main": "dist/index.js",
   "repository": "https://github.com/dimax/dimax-scripts.git",
@@ -10,25 +9,24 @@
   "scripts": {
     "changelog": "env-cmd .env lerna-changelog",
     "lerna": "lerna",
-    "lint:eslint": "eslint packages --ext *.{js,jsx,vue} --fix",
+    "lint:eslint": "eslint packages --ext js,jsx,vue --fix",
     "test": "jest --watch"
   },
   "workspaces": [
     "packages/*"
   ],
   "engines": {
-    "node": ">= 8",
-    "npm": ">= 5"
+    "node": ">=8",
+    "npm": ">=5"
   },
-  "dependencies": {},
   "devDependencies": {
-    "@dimax-ar/eslint-config-dimax": "1.0.0-alpha.1",
-    "dotenv": "4.0.0",
-    "env-cmd": "7.0.0",
-    "eslint": "4.16.0",
-    "jest": "22.1.4",
-    "lerna": "2.8.0",
-    "lerna-changelog": "0.7.0",
-    "prettier": "1.10.2"
+    "env-cmd": "^8.0.2",
+    "eslint": "^5.6.1",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-find-rules": "^3.1.1",
+    "jest": "^23.6.0",
+    "lerna": "3.4.2",
+    "lerna-changelog": "^0.8.0",
+    "prettier": "^1.10.2"
   }
 }

@@ -10,7 +10,9 @@ const fs = require('fs');
 const path = require('path');
 
 const paths = require('./paths');
-const { pkg: { version: APP_VERSION } } = require('./package');
+const {
+  pkg: { version: APP_VERSION },
+} = require('./package');
 
 // Make sure that including paths.js after env.js will read .env variables.
 delete require.cache[require.resolve('./paths')];

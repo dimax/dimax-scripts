@@ -1,9 +1,10 @@
 {
-  "lerna": "2.8.0",
   "npmClient": "yarn",
   "useWorkspaces": true,
   "version": "independent",
-  "packages": ["packages/*"],
+  "packages": [
+    "packages/*"
+  ],
   "changelog": {
     "repo": "dimax/dimax-scripts",
     "labels": {
@@ -21,7 +22,7 @@
       "exact": true
     },
     "publish": {
-      "message": "✨ Publish"
+      "message": "✨ Publish v%v"
     }
   }
 }

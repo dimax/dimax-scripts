@@ -8,7 +8,7 @@
 
 const mkdirp = require('mkdirp');
 
-const { resolveApp } = require('./paths');
+const { resolveApp } = require('../utils/paths');
 
 mkdirp(resolveApp('reports'));
 

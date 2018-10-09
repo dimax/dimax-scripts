@@ -9,17 +9,6 @@
 module.exports = {
   extends: ['plugin:import/errors', 'plugin:import/warnings'],
   plugins: ['import'],
-  env: {
-    es6: true,
-    node: true,
-  },
-  parserOptions: {
-    ecmaVersion: 8,
-    sourceType: 'script',
-    ecmaFeatures: {
-      experimentalObjectRestSpread: true,
-    },
-  },
   settings: {
     'import/ignore': [
       'node_modules', // mostly CommonJS (ignored by default)
