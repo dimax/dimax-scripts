@@ -1,6 +1,6 @@
 {
   "name": "@dimax-ar/dimax-scripts",
-  "version": "1.0.0-alpha.5",
+  "version": "1.0.0-alpha.6",
   "description": "Development environment used by Dimax",
   "main": "index.js",
   "repository": "dimax/dimax-scripts",
@@ -19,7 +19,7 @@
     "report:duplication": "node ./bin/dimax-scripts jscpd"
   },
   "dependencies": {
-    "@dimax-ar/eslint-config-dimax": "^2.0.0",
+    "@dimax-ar/eslint-config-dimax": "^3.0.0",
     "arrify": "^1.0.1",
     "cross-spawn": "^6.0.4",
     "dotenv": "^6.1.0",
