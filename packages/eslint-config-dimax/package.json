@@ -20,6 +20,7 @@
     "access": "public"
   },
   "dependencies": {
+    "babel-eslint": "^10.0.1",
     "eslint-plugin-cypress": "^2.0.1",
     "eslint-plugin-filenames": "^1.2.0",
     "eslint-plugin-flowtype": "^2.41.1",
