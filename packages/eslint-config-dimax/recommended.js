@@ -17,7 +17,7 @@ module.exports = {
     curly: [1, 'all'],
     'dot-notation': 1,
     'eol-last': 0,
-    eqeqeq: 1,
+    eqeqeq: [1, 'always', { null: 'ignore' }],
     'linebreak-style': 1,
     'lines-around-directive': 1,
     'new-cap': [1, { properties: false }],
