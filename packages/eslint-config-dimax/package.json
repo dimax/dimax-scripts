@@ -21,16 +21,15 @@
   },
   "dependencies": {
     "babel-eslint": "^10.0.1",
-    "eslint-plugin-cypress": "^2.0.1",
+    "eslint-plugin-cypress": "^2.1.2",
     "eslint-plugin-filenames": "^1.2.0",
-    "eslint-plugin-flowtype": "^2.41.1",
     "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jest": "^21.7.0",
+    "eslint-plugin-jest": "^22.1.0",
     "eslint-plugin-prettier": "^3.0.0",
-    "eslint-plugin-vue": "^5.0.0-beta.3"
+    "eslint-plugin-vue": "5.0.0-beta.5"
   },
   "peerDependencies": {
     "eslint": ">=5",
-    "prettier": ">=1"
+    "prettier": ">=1.15"
   }
 }

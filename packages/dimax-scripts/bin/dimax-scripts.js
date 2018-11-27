@@ -1,10 +1,5 @@
 #!/usr/bin/env node
 
-/**
- * @author @lgraziani2712
- *
- * @flow
- */
 /* eslint-disable no-console */
 
 'use strict';

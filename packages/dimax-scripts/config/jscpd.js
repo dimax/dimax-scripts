@@ -1,9 +1,3 @@
-/**
- * @author @lgraziani2712
- *
- * @flow
- */
-
 'use strict';
 
 const mkdirp = require('mkdirp');
